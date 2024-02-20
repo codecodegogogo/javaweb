@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                      https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+  version="5.0"
+  metadata-complete="true">
+
+	<servlet>
+		<servlet-name>fdsafdsagfdsafdsa</servlet-name>
+		<servlet-class>com.my.servlet.HelloServlet</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+
+		<servlet-name>fdsafdsagfdsafdsa</servlet-name>
+		<url-pattern>/fd/fd</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>mysql</servlet-name>
+		<servlet-class>com.my.servlet.StudentServlet</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+
+		<servlet-name>mysql</servlet-name>
+		<url-pattern>/mysql</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
